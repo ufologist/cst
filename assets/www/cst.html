@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>逛 &hearts; 长沙通</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/typo.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="cst.css">
+</head>
+<body class="cst-app">
+    <div class="slide-wrapper">
+        <div class="inner-wrapper">
+            <div class="slide forum-list">
+                <div class="slide-hd">
+                    <i class="fa pull-left invisible"></i>
+                    <i class="fa fa-chevron-left pull-right next"></i>
+                    <h1 class="header">活跃板块</h1>
+                </div>
+                <div class="slide-bd">
+                    <!--
+                    <div class="row-fluid">
+                        <div class="span4 intro-wrapper">
+                            <div class="forum-intro">
+                                <div><img src="http://www.cstong.net/themes/site/default/images/cst/logo/index_logo.jpg" class="forumimage img-rounded"></div>
+                                <h2 class="forumname-hd"><span class="forumname"><a href="http://bbs.cstong.net/thread-htm-fid-1.html">聚焦</a></span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+                </div>
+                <div class="slide-ft">
+                    逛长沙通 v0.1 &copy; <a href="https://github.com/ufologist" target="_blank">Sun</a><br/>
+                   ~ <i class="fa fa-heart"></i> ~
+                </div>
+            </div>
+            <div class="slide topic-list">
+                <div class="slide-hd">
+                    <i class="fa fa-bars pull-left prev"></i>
+                    <i class="fa fa-chevron-right pull-right invisible next"></i>
+                    <h1 class="header">板块</h1>
+                </div>
+                <div class="slide-bd">
+                    <table class="post-list table"></table>
+                </div>
+            </div>
+            <div class="slide topic">
+                <div class="slide-hd">
+                    <i class="fa fa-chevron-left pull-left prev"></i>
+                    <i class="fa pull-right invisible"></i>
+                    <h1 class="header">主题</h1>
+                </div>
+                <div class="slide-bd">
+                    <div class="post typo"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 图片有外链检测, 如果服务器检测到Referer不是本域就会404 -->
+    <!-- <img src="http://bbs.cstong.net/attachment/thumb/mini/1312/thread/1_39125_2648899cb57676f.jpg"> -->
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/iscroll.js"></script>
+    <script src="lib/fastclick.js"></script>
+    <script src="lib/cordova.js"></script>
+    <script src="util.js"></script>
+    <script src="app.js"></script>
+    <script src="cst.js"></script>
+</body>
+</html>

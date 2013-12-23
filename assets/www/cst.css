@@ -1,0 +1,108 @@
+/**
+ * cstong.net
+ * 定义从CST中提取出来的元素的样式
+ * 
+ * 主题色
+ * --------------
+ * 主题: #118f48
+ * 按钮: #fa7300
+ * 背景: #e9ede9
+ * 
+ * @author Sun
+ * @version 0.1 2013-12-21
+ */
+
+/**
+ * 活跃板块样式
+ */
+.forumimage {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+.forumname a {
+    color: #333;
+}
+
+/**
+ * 论坛帖子列表
+ */
+.post-list tr:active {
+    background-color: rgba(17, 143, 72, 0.1);
+}
+.post-list td {
+    border-top-color: #eeeeee;
+}
+.post-list tr:first-child td {
+    border-top: none;
+}
+.threadimgole {
+    float: left;
+    margin: 0px 1px 0px 0;
+    border: 1px solid #fff;
+}
+.title a {
+    color: #000;
+}
+
+/**
+ * 帖子
+ */
+.post {
+    padding: 8px;
+}
+.floor_table {
+    table-layout: auto !important;
+}
+.floor_table td {
+    padding: 0 !important;
+    border: none !important;
+}
+.floor_bottom_tips {
+    text-align: right;
+}
+.J_avatar {
+    width: 50px;
+    height: 50px;
+}
+.floor_left {
+    width: 60px;
+    overflow: hidden;
+    vertical-align: top;
+}
+.lz_namebar, .fk_namebar {
+    padding: 0 8px 0 3px;
+    overflow: hidden;
+    background: #f0f6f3;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.lz_namebar .fl, .fk_namebar .fl {
+    float: left !important;
+}
+.lz_namebar .fr, .fk_namebar .fr {
+    float: right !important;
+}
+
+.more_down,
+.img_info,
+.loading,
+.pagebar,
+.return,
+.J_read_reply,
+.read_like_list,
+.J_read_like_tit,
+.reply_quick,
+.icon_read_like {
+    display: none;
+}
+.J_post_img {
+    display: block;
+    margin: 10px 0;
+}
+.read_attach_pic ul {
+    margin-left: 0;
+    list-style: none;
+}
