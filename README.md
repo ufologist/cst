@@ -1,14 +1,13 @@
 逛长沙通 - 长沙通手机App(非官方版)
 ==============
-<img src="http://ufologist.github.io/cst/images/splash.jpg" width="270" height="480" />
-<img src="http://ufologist.github.io/cst/images/forum-list.jpg" width="270" height="480" />
-<img src="http://ufologist.github.io/cst/images/topic-list.jpg" width="270" height="480" />
-<img src="http://ufologist.github.io/cst/images/topic.jpg" width="270" height="480" />
+<img src="http://ufologist.github.io/cst/images/splash.jpg" width="270" height="480" /> 
+<img src="http://ufologist.github.io/cst/images/forum-list.jpg" width="270" height="480" /> 
+<img src="http://ufologist.github.io/cst/images/topic-list.jpg" width="270" height="480" /> 
+<img src="http://ufologist.github.io/cst/images/topic.jpg" width="270" height="480" /> 
 
-体验
+体验(Android版)
 --------------
 <a href="https://raw.github.com/ufologist/cst/master/release/cst.apk">
-    Android版
     <img src="http://ufologist.github.io/cst/images/download-QR-Code.png" />
 </a>
 
