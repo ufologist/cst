@@ -30,7 +30,7 @@
 2. 通过custom_rules.xml来定制构建, 如-pre-build
 3. 项目采用phonegap/cordova架构, 开启了ProGuard并已配置好
 4. 批处理, 用于一步执行构建, 安装, 运行
-
-
-    > run(默认构建debug)
-    > run release
+```
+> run(默认构建debug)
+> run release
+```
