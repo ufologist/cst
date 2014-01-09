@@ -18,3 +18,9 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+# keep phonegap
+# http://stackoverflow.com/questions/11627984/getting-error-while-generating-the-apk-file-if-proguard-is-on
+-libraryjars libs/commons-codec-1.4.jar
+-keep class org.apache.cordova.** { *; }
+-keep public class * extends org.apache.cordova.api.CordovaPlugin

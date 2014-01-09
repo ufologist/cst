@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="custom_rules">
+    <target name="-pre-build">
+        <echo>
+            custom_rules.xml
+            在这里实现自定义任务
+            例如: NDK-BUILD, RequireJS R.js
+        </echo>
+    </target>
+</project>
