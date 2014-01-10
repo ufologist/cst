@@ -34,3 +34,9 @@
 > run(默认构建debug)
 > run release
 ```
+
+
+Android项目设置为Library项目在其他项目中共用
+----------------------
+1. 修改要作为lib项目的project.properties, 添加 android.library=true
+2. 修改要引用lib项目的project.properties, 添加 android.library.reference.1=../lib-project-folder
