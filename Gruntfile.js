@@ -22,7 +22,7 @@ module.exports = function(grunt) {
                                  // 有了这个后, 你可以和F5(包括node下单独的F5组件) say goodbye了
             },
             livereload: { // Target(watch:livereload)
-                files: ['assets/**/*.{html,css,js}']
+                files: ['assets/**/*.{html,css,js}', 'assets/**/*.{gif,jpeg,jpg,png,svg,webp}']
             }
         },
         connect: { // http://localhost:8000
@@ -30,20 +30,7 @@ module.exports = function(grunt) {
                 options: {
                     base: 'assets/www',
                     // keepalive: true, // 集成watch livereload后本身就会一直挂起, 不需要这个了
-                    middleware: function(connect, options) {
-                        // Connect middleware to inject the livereload script tag into your page
-                        // http://blog.csdn.net/xiongzhengxiang/article/details/12843615
-                        // http://bluesdream.com/blog/grunt-plugin-livereload-wysiwyg-editor.html
-                        return [
-                            require('connect-livereload')({
-                                port: 35729 // watch livereload default port
-                            }),
-                            // Serve static files.
-                            connect.static(options.base),
-                            // Make empty directories browsable.
-                            connect.directory(options.base)
-                        ];
-                    }
+                    livereload: true
                 }
             }
         }
