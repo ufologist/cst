@@ -18,7 +18,13 @@
         focusPageApi: 'http://bbs.cstong.net/index.php?m=cst&c=Api&a=loadFocusPage',
         pageSize: 20,
 
-        forumlistUrl: 'http://bbs.cstong.net/index.php?m=bbs&c=forumlist'
+        // XXX 添加mode参数强制使用PC版本的网页, 否则会返回手机版的页面, 里面的内容就不符合规格了
+        // cstong通过UA来判断是提供手机版网站或者PC版
+        // 浏览器中可以设置cookie: mode=0来强制使用PC版, 或mode=1为手机版
+        // 但是通过JS设置cookie后没有效果, 应该是服务器识别UA后返回了手机版的网页
+        // 试过修改cordova的UA也没有效果, 这个就郁闷了.
+        // 最终猜测可以通过在URL中传递这个参数来达到强制使用PC版网页的目的
+        forumlistUrl: 'http://bbs.cstong.net/index.php?m=bbs&c=forumlist&mode=0'
     };
 
     /**
