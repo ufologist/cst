@@ -21,6 +21,8 @@ public class MainActivity extends DroidGap {
             fixJellyBeanIssues();
         }
 
+        // XXX 修改UA是成功了, 但是CST还是识别我是手机版? 不知道为什么!!!
+        this.appView.getSettings().setUserAgentString("Mozilla/5.0 (Windows NT 5.1) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.112 Safari/534.30");
         super.loadUrl(Config.getStartUrl(), 3000);
     }
 
