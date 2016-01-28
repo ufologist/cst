@@ -11,6 +11,8 @@
     <img src="http://ufologist.github.io/cst/images/download-QR-Code.png" />
 </a>
 
+[cst.html](http://rawgit.com/ufologist/cst/master/assets/www/cst.html)
+
 
 简介
 --------------
